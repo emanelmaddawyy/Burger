@@ -1,0 +1,380 @@
+@font-face {
+  font-family: 'BebasNeue';
+  src: url("fonts/BebasNeueBold.ttf");
+  src: url("fonts/BebasNeueBold.ttf") format("woff"), url("fonts/BebasNeueBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Alfa';
+  src: url("fonts/AlfaSlabOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'mono';
+  src: url("fonts/Montserrat-Regular.ttf");
+}
+
+* {
+  font-family: 'BebasNeue';
+  font-style: normal;
+  font-weight: 200;
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.btn-success {
+  background: #000 !important;
+  border-color: #000 !important;
+}
+
+.collapse:not(.show) {
+  display: none;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.top-header {
+  float: right;
+}
+
+.top-header p {
+  margin: 20px  20px  0;
+}
+
+/***********Header******/
+#up {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.navbar {
+  padding: 0;
+  width: 100%;
+}
+
+.navbar .nav-item {
+  padding: 10px;
+}
+
+.navbar a.nav-link.scroll, .navbar a.nav-link.scroll:hover, .navbar .nav-item .active a {
+  font-size: 18px;
+  word-spacing: 5px;
+  position: relative;
+  color: #3d2514 !important;
+  letter-spacing: 3px;
+}
+
+.fixed {
+  width: 100%;
+}
+
+.fixed.scrolled {
+  background-color: #ffc74e !important;
+  -webkit-transition: background-color 200ms linear !important;
+  transition: background-color 200ms linear !important;
+  width: 100%;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  -ms-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  -o-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+.fixed.scrolled a.nav-link.scroll {
+  color: #3d2514 !important;
+}
+
+#cover {
+  color: #fff;
+  overflow: hidden;
+}
+
+#cover h1 {
+  font-size: 45px;
+  color: #fff;
+  z-index: 3;
+}
+
+#cover p {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+#cover {
+  position: relative;
+}
+
+/**************Product Slidedr*********/
+#contect {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#contect h1 {
+  font-family: 'Alfa' !important;
+  font-weight: bold;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #3d2514;
+}
+
+#contect p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: 'mono';
+  color: #3d2514;
+  padding: 20px;
+}
+
+#contect .productBox {
+  margin: 30px 0;
+  text-align: center;
+}
+
+#contect .productBox img {
+  height: 260px;
+}
+
+#contect .productBox h1 {
+  color: #3d2514;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'BebasNeue' !important;
+}
+
+#contect .productBox p {
+  font-size: 14px;
+  color: #3d2514;
+  padding: 0 !important;
+  width: 90% !important;
+  margin: 10px auto;
+  font-family: 'mono';
+}
+
+#contect .productBox button {
+  background: #bf2222;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 0;
+  padding: 10px 20px;
+}
+
+#contect button.testy {
+  background-color: #ffc045;
+  margin: 20px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 10px;
+  color: #3d2514;
+}
+
+/**************Product Slidedr*********/
+/***************ImgBrand*******/
+#imageBrand {
+  margin: 70px 0;
+  overflow: hidden;
+}
+
+#imageBrand .decription {
+  position: absolute;
+  left: 45px;
+  top: 30px;
+  color: #fff;
+  z-index: 2;
+}
+
+#imageBrand .decription p {
+  margin: -7px 0 !important;
+  font-size: 28px !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#imageBrand .decription p:first-child {
+  font-size: 14px;
+}
+
+#imageBrand img {
+  position: relative;
+}
+
+#imageBrand .left {
+  position: relative;
+}
+
+#imageBrand .left img {
+  margin-bottom: 32px;
+}
+
+/****************Discover*******/
+#discover {
+  margin: 70px 0;
+}
+
+#discover .shadow {
+  padding: 20px 5px;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  -ms-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  -o-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+#discover .owl-dots {
+  bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 5px;
+  direction: ltr;
+}
+
+#discover .owl-dot.active {
+  width: 15px;
+  height: 15px;
+  background: #ffc045;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+#discover .owl-dot {
+  width: 15px;
+  height: 15px;
+  background: #ccc;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+#discover h5 {
+  color: #3d2514;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#discover h1 {
+  font-family: 'Alfa';
+  color: #3d2514;
+  margin-bottom: 20px;
+}
+
+#discover p {
+  font-size: 16px;
+  color: #3d2514;
+  font-family: 'mono';
+}
+
+/****************Discover*******/
+/****************Booking*******/
+#booking {
+  background: url(images/Image2.png);
+  padding: 100px;
+  background-size: cover;
+  background-position: left;
+  height: 600px;
+  text-align: center;
+}
+
+#booking form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#booking form .form-control {
+  padding: 25px !important;
+}
+
+#booking form .form-group {
+  padding: 10px;
+}
+
+#booking h1 {
+  font-family: 'Alfa';
+  color: #3d2514;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#booking p {
+  font-size: 16px;
+  color: #3d2514;
+  text-transform: uppercase;
+}
+
+#booking button.btn.btn-primary {
+  width: 100%;
+  padding: 14px;
+  font-size: 14px;
+  font-weight: lighter;
+  background-color: #bf2222;
+  text-transform: uppercase;
+  font-family: 'Alfa';
+}
+
+/****************Booking*******/
+/*************Footer**********/
+.footerCover {
+  background: url("images/footer.png");
+  background-size: cover;
+  height: 500px;
+  margin: 40px;
+  color: #fff;
+}
+
+.footerCover img.logoW {
+  margin: 40px 0;
+}
+
+.footerCover .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footerCover .social li {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 50%;
+  margin: 0 10px;
+  border: 1px solid #fff;
+  text-align: center;
+  background: #fff;
+}
+
+.footerCover .social a {
+  color: #161616;
+}
+
+.footerCover .address {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footerCover .address span {
+  padding-left: 10px !important;
+}
+
+/************footer***********/
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,132 @@
+@media (max-width: 1200px){
+    .navbar-dark .navbar-nav .nav-link
+    {
+        font-size: 15px;
+    }
+  
+ 
+}
+@media (max-width: 1024px){
+    .navbar-dark .navbar-nav .nav-link
+    {
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 991px){
+    .nav-toggle {
+     
+        z-index: 2;
+        color: #3d2514 !important;
+        display: block !important;
+        line-height: 40px;
+        margin-right: 10px;
+      
+    }
+    .nav-toggle.expanded
+    {
+        margin: 10px;
+    }
+  
+    #up{
+        position: relative;
+    }
+    #booking{
+        padding: 0;
+        height: auto;
+    }
+    .copyright{
+        text-align: center !important;
+    }
+
+header#up
+{
+    background: #ffc74d;
+}
+.fixed.scrolled a.nav-link.scroll:after
+{
+    display: none;
+}
+.fixed a.nav-link.scroll{
+    color: #3d2514 !important;
+}
+
+.navbar .navbar-nav > .active > a:after, .navbar .navbar-nav > li > a:hover:after, .navbar .navbar-nav > a:hover:after, .navbar .navbar-nav > .active > a:focus:after
+{
+    width: 0;
+}
+
+
+footer ul , footer h4  {
+ text-align: center;
+    margin: 20px  auto;
+    
+
+}
+
+footer .social 
+{
+    justify-content: center;
+}
+}
+@media (max-width: 800px){
+    .footerCover{
+        height: 550px;
+    }
+    .navbar-dark .navbar-nav .nav-link
+    {
+        font-size: 18px;
+    }
+   .owl-dots{
+       bottom: -10px !important;
+   }
+
+}
+@media (max-width: 768px){
+
+  #booking h1 {
+      font-size:20px;
+  }
+ footer .mt-5{
+     margin-top: 0 !important;
+ }
+ .social{
+    justify-content: center !important;
+ }
+ .footerCover img.logoW{
+     padding: 20px;
+ }
+ #contect h1{
+     font-size: 35px;
+ }
+}
+
+@media (max-width: 767px){
+  
+      .left{
+          margin-top: 30px;
+      }
+}
+@media (max-width: 480px){
+   
+    #imageBrand .decription p{
+        font-size: 18px !important;
+    }
+ 
+}
+@media (max-height: 450px) {
+
+
+  }
+@media (max-width: 380px){
+
+   
+  
+}
+@media (max-width: 320px){
+  
+}
+
+.navside {
+    z-index: 999999;
+}
